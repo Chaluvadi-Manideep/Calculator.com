@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Calculator
+    </title>
+    <link rel="stylesheet" href="css/loaderstyles.css">
+    <link rel="icon" href="/icon.png">
+</head>
+<body>
+    <div class= "box">
+        <h1 class = "Load">Loading</h1>
+        <button onclick="location.href='index2.html'">Start</button>
+        <Script>
+            setTimeout(() =>document.querySelector("h1").innerHTML = "Loading.", 600);
+            setTimeout(() =>document.querySelector("h1").innerHTML = "Loading..", 1200);
+            setTimeout(() =>document.querySelector("h1").innerHTML = "Loading...", 1800);
+            setTimeout(() =>document.querySelector("h1").innerHTML = "Loading", 2400);
+            setTimeout(() =>document.querySelector("h1").innerHTML = "Loading.", 3000);
+            setTimeout(() =>document.querySelector("h1").innerHTML = "Loading..", 3600);
+            setTimeout(() =>document.querySelector("h1").innerHTML = "Loading...", 4200);
+            setTimeout(() =>document.querySelector("h1").innerHTML = "", 4500);
+            setTimeout(() =>document.querySelector("button").style.visibility = "visible",4800);
+        </Script>
+    </div>
+</body>

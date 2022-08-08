@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(42, 45, 45);
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Indie Flower', cursive;
+}
+video{
+    margin-left: 20%;
+}
